@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,200&family=Ubuntu:ital,wght@0,400;1,300&family=Varela+Round&display=swap'); 
+
+:root{
+    --red: #d81c28;
+    --gray: #2e2e2e;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+}
+
+button{
+    all: unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    color: white;
+    font-weight: 500;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 24px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: calc(100vh -72px);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.hero h1{
+    font-weight: 800;
+    line-height: 102px;
+    font-size: 108px;
+}
+
+.hero p {
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.hero-btn {
+    display: flex;
+    gap: 40px;
+}
